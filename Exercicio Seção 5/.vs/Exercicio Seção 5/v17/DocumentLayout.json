@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\William\\Desktop\\Projeto C#\\Exercicio Se\u00E7\u00E3o 5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ABDF9229-4702-44CF-9EBA-A3AA6E758C47}|Exercicio Se\u00E7\u00E3o 5\\Exercicio Se\u00E7\u00E3o 5.csproj|c:\\users\\william\\desktop\\projeto c#\\exercicio se\u00E7\u00E3o 5\\exercicio se\u00E7\u00E3o 5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABDF9229-4702-44CF-9EBA-A3AA6E758C47}|Exercicio Se\u00E7\u00E3o 5\\Exercicio Se\u00E7\u00E3o 5.csproj|solutionrelative:exercicio se\u00E7\u00E3o 5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABDF9229-4702-44CF-9EBA-A3AA6E758C47}|Exercicio Se\u00E7\u00E3o 5\\Exercicio Se\u00E7\u00E3o 5.csproj|c:\\users\\william\\desktop\\projeto c#\\exercicio se\u00E7\u00E3o 5\\exercicio se\u00E7\u00E3o 5\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABDF9229-4702-44CF-9EBA-A3AA6E758C47}|Exercicio Se\u00E7\u00E3o 5\\Exercicio Se\u00E7\u00E3o 5.csproj|solutionrelative:exercicio se\u00E7\u00E3o 5\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Conta.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Desktop\\Projeto C#\\Exercicio Se\u00E7\u00E3o 5\\Exercicio Se\u00E7\u00E3o 5\\Conta.cs",
+              "RelativeDocumentMoniker": "Exercicio Se\u00E7\u00E3o 5\\Conta.cs",
+              "ToolTip": "C:\\Users\\William\\Desktop\\Projeto C#\\Exercicio Se\u00E7\u00E3o 5\\Exercicio Se\u00E7\u00E3o 5\\Conta.cs",
+              "RelativeToolTip": "Exercicio Se\u00E7\u00E3o 5\\Conta.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:23:30.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\William\\Desktop\\Projeto C#\\Exercicio Se\u00E7\u00E3o 5\\Exercicio Se\u00E7\u00E3o 5\\Program.cs",
+              "RelativeDocumentMoniker": "Exercicio Se\u00E7\u00E3o 5\\Program.cs",
+              "ToolTip": "C:\\Users\\William\\Desktop\\Projeto C#\\Exercicio Se\u00E7\u00E3o 5\\Exercicio Se\u00E7\u00E3o 5\\Program.cs",
+              "RelativeToolTip": "Exercicio Se\u00E7\u00E3o 5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:14:51.338Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
