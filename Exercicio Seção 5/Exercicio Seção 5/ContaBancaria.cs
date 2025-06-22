@@ -1,26 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Globalization;
+
 
 namespace Exercicio_Seção_5 {
-    public class Conta {
+    public class ContaBancaria {
         public int Numero {  get; private set; }
         public string Titular { get; private set; }
-        public double Saldo { get; set; }
+        public double Saldo { get; private set; }
 
-        public Conta(int numero, string titular, double saldo) {
-            this.Numero = numero;
-            this.Titular = titular;
-            this.Saldo = saldo;
+        public ContaBancaria(int numero, string titular) {
+            Numero = numero;
+            Titular = titular;
+            Saldo = 0;
         }
 
-        public Conta(int numero, string titular) {
-            this.Numero = numero;
-            this.Titular = titular;
-            Saldo = 0;
+        public ContaBancaria(int numero, string titular, double depositoInicial) : this(numero, titular) {
+            Deposito(depositoInicial);
         }
 
         public void Deposito(double valor) {

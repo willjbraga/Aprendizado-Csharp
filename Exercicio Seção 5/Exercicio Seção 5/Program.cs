@@ -5,13 +5,16 @@ namespace Exercicio_Seção_5 {
     internal class Program {
         static void Main(string[] args) {
 
-            int conta;
+            int numero;
             string titular;
             char dep_inicial;
             double saldo;
 
+            ContaBancaria conta;
+
+
             Console.Write("Entre o número da conta: ");
-            conta = int.Parse(Console.ReadLine());
+            numero = int.Parse(Console.ReadLine());
             Console.WriteLine();
 
             Console.Write("Entre o titular da conta: ");
@@ -22,26 +25,27 @@ namespace Exercicio_Seção_5 {
             dep_inicial = char.Parse(Console.ReadLine());
             Console.WriteLine();
 
-            Conta c = new Conta(conta, titular);
-
             if (dep_inicial == 's') {
                 Console.Write("Entre o valor de depósito inicial: ");
                 saldo = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                 Console.WriteLine();
-                c.Deposito(saldo);
+
+                conta = new ContaBancaria(numero, titular, saldo);
+            }
+            else
+            {
+                conta = new ContaBancaria(numero, titular);
             }
 
-            Console.WriteLine(c);
+            Console.WriteLine(conta);
 
             Console.Write("Entre um valor para depósito: ");
-            c.Deposito(double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture));
-            Console.WriteLine(c);
+            conta.Deposito(double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture));
+            Console.WriteLine(conta);
 
             Console.Write("Entre um valor para saque: ");
-            c.Saque(double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture));
-            Console.WriteLine(c);
-
-
+            conta.Saque(double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture));
+            Console.WriteLine(conta);
 
         }
     }
